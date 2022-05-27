@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.golimpio.boreal.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.golimpio.boreal.MyBundle
 
 class MyApplicationService {
 
