@@ -1,18 +1,20 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.golimpio.boreal</id>
-    <name>boreal</name>
-    <vendor>golimpio</vendor>
+    <name>Boreal</name>
+    <vendor email="golimpio@gmail.com"
+            url="https://github.com/golimpio">Gilberto Ribeiro Olimpio</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.golimpio.boreal.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.golimpio.boreal.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.golimpio.boreal.services.ApplicationService"/>
+        <projectService serviceImplementation="com.github.golimpio.boreal.services.ProjectService"/>
+        <themeProvider id="b8030f55-5ebb-47d5-afaf-5ac40f5d85b1" path="/META-INF/Boreal.theme.json"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.golimpio.boreal.listeners.MyProjectManagerListener"
+        <listener class="com.github.golimpio.boreal.listeners.ProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
