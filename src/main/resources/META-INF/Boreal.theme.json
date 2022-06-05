@@ -207,7 +207,8 @@
     },
 
     "NavBar": {
-      "borderColor": "mainBackground"
+      "borderColor": "mainBackground",
+      "foreground": "fadedForeground"
     },
 
     "Notification": {
@@ -351,7 +352,13 @@
     },
 
     "StatusBar": {
-      "borderColor": "borderColour"
+      "borderColor": "borderColour",
+      "Breadcrumbs": {
+        "foreground": "fadedForeground"
+      },
+      "Widget": {
+        "foreground": "fadedForeground"
+      }
     },
 
     "Table": {
