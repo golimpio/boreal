@@ -161,6 +161,7 @@
     "EditorPane.inactiveBackground": "inactiveSelectionBackground",
 
     "EditorTabs": {
+      "tabInsets": "0,12,0,8",
       "underlineColor": "highlightColour",
       "borderColor": "borderColour",
       "underlinedTabBackground": "inactiveSelectionBackground"
@@ -206,7 +207,7 @@
     },
 
     "NavBar": {
-      "borderColor": "borderColour"
+      "borderColor": "mainBackground"
     },
 
     "Notification": {
@@ -399,7 +400,10 @@
       "Header": {
         "background": "inactiveSelectionBackground",
         "inactiveBackground": "inactiveSelectionBackground",
-        "font.size.offset": 0
+        "font.size.offset": 0,
+        "toolbarLeftRightInsets": "0,12,0,8",
+        "insets": "4,8,4,8",
+        "height": 35
       },
       "HeaderTab": {
         "hoverBackground": "inactiveSelectionBackground",
