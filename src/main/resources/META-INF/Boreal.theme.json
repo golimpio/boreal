@@ -23,7 +23,7 @@
     "shadowColour": "#b9c7d510",
     "focusColour": "#0c9294",
     "defaultFocusColour": "#44a6d2",
-    "linkColour": "#0a7285",
+    "linkColour": "#42AEBA",
     "secondaryLinkColour": "#75BAB5",
     "highlightColour": "#2aa198",
     "inactiveHighlightColour": "#446a73",
@@ -110,7 +110,13 @@
     },
 
     "CompletionPopup": {
-      "matchForeground": "#02858E"
+      "matchForeground": "#02858E",
+      "Advertiser": {
+        "background": "lightSelectionBackground",
+        "borderInsets": "4,12,3,8"
+      },
+      "Body":{
+      }
     },
 
     "Component": {
@@ -146,7 +152,10 @@
     "Editor": {
       "background": "mainBackground",
       "foreground": "mainForeground",
-      "shortcutForeground": "highlightColour"
+      "shortcutForeground": "highlightColour",
+      "SearchField" : {
+        "borderInsets" : "7,10,7,8"
+      }
     },
 
     "EditorPane.inactiveBackground": "inactiveSelectionBackground",
@@ -178,6 +187,17 @@
       "pressedForeground": "linkColour",
       "visitedForeground": "linkColour",
       "secondaryForeground": "secondaryLinkColour"
+    },
+
+    "MainToolbar": {
+      "Icon": {
+        "hoverBackground": "lightSelectionBackground",
+        "pressedBackground": "lightSelectionBackground"
+      },
+      "Dropdown": {
+        "hoverBackground": "lightSelectionBackground",
+        "pressedBackground": "lightSelectionBackground"
+      }
     },
 
     "MemoryIndicator": {
@@ -261,6 +281,7 @@
       "Header.inactiveBackground": "mainBackground",
       "separatorForeground": "borderColour",
       "Advertiser": {
+        "background": "lightSelectionBackground",
         "foreground": "mainForeground",
         "borderColor": "borderColour",
         "borderInsets": "4,8,3,0"
@@ -283,6 +304,19 @@
       "passedEndColor": "#026d76"
     },
 
+    "RunWidget": {
+      "foreground": "mainForeground",
+      "background": "lightSelectionBackground",
+      "leftHoverBackground": "selectionBackground",
+      "leftPressedBackground": "selectionBackground"
+    },
+
+    "ScrollBar": {
+      "Mac.Transparent": {
+        "hoverThumbColor": "#ffffff15"
+      }
+    },
+
     "SearchEverywhere": {
       "Header.background": "inactiveSelectionBackground",
       "Tab": {
@@ -293,7 +327,10 @@
         "background": "mainBackground",
         "borderColor": "borderColour"
       },
-      "Advertiser.foreground": "mainForeground"
+      "Advertiser" : {
+        "background": "lightSelectionBackground",
+        "foreground": "mainForeground"
+      }
     },
 
     "SearchMatch": {
@@ -348,6 +385,11 @@
       "borderColor": "borderColour"
     },
 
+    "ToolBar": {
+      "verticalToolbarInsets": "7,4,7,4",
+      "horizontalToolbarInsets": "4,7,4,7"
+    },
+
     "ToolTip": {
       "background": "mainBackground",
       "Actions.background": "inactiveSelectionBackground"
@@ -356,12 +398,14 @@
     "ToolWindow": {
       "Header": {
         "background": "inactiveSelectionBackground",
-        "inactiveBackground": "inactiveSelectionBackground"
+        "inactiveBackground": "inactiveSelectionBackground",
+        "font.size.offset": 0
       },
       "HeaderTab": {
         "hoverBackground": "inactiveSelectionBackground",
         "selectedInactiveBackground": "inactiveSelectionBackground",
-        "hoverInactiveBackground": "inactiveSelectionBackground"
+        "hoverInactiveBackground": "inactiveSelectionBackground",
+        "leftRightInsets": "0,12,0,12"
       },
       "Button": {
         "selectedForeground": "mainForeground",
