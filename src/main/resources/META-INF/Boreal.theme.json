@@ -192,12 +192,12 @@
 
     "MainToolbar": {
       "Icon": {
-        "hoverBackground": "lightSelectionBackground",
-        "pressedBackground": "lightSelectionBackground"
+        "hoverBackground": "selectionBackground",
+        "pressedBackground": "selectionBackground"
       },
       "Dropdown": {
-        "hoverBackground": "lightSelectionBackground",
-        "pressedBackground": "lightSelectionBackground"
+        "hoverBackground": "selectionBackground",
+        "pressedBackground": "selectionBackground"
       }
     },
 
